@@ -133,7 +133,7 @@ Nesta etapa foi preparado o ambiente de desenvolvimento e organizada a estrutura
 
 Foram criados os arquivos de teste que seriam utilizados durante os procedimentos de criptografia e descriptografia.
 
-![Construindo o ambiente - Etapa 01](./imagens/01%20-%20construindo_ambiente.png)
+![Construindo o ambiente - Etapa 01](./imagens/01%20-%20construindo_ambiente.PNG)
 
 ### 2. Preparação dos Arquivos de Teste
 
@@ -141,7 +141,7 @@ Nesta etapa foi realizada a preparação dos arquivos que seriam utilizados na s
 
 Os arquivos `dados-confidenciais` e `senhas` foram organizados dentro do diretório `test_file`, servindo como dados de teste para demonstrar o funcionamento dos scripts desenvolvidos em Python.
 
-![Construindo o ambiente - Etapa 02](./imagens/02%20-%20construindo_ambiente.png)
+![Construindo o ambiente - Etapa 02](./imagens/02%20-%20construindo_ambiente.PNG)
 
 ### 3. Criptografando os Arquivos
 
@@ -151,7 +151,7 @@ O procedimento demonstrou como um Ransomware pode tornar informações indispon�
 
 Também foi apresentada uma mensagem simulada de resgate, representando uma característica comum desse tipo de ameaça.
 
-![Arquivos criptografados](./imagens/03%20-%20arquivos_criptografados.png)
+![Arquivos criptografados](./imagens/03%20-%20arquivos_criptografados.PNG)
 
 ### 4. Descriptografando os Arquivos
 
@@ -159,7 +159,7 @@ Após a execução da simulação de criptografia, foi utilizado o script `descr
 
 Essa etapa demonstrou a importância do processo de descriptografia e permitiu verificar a restauração dos dados utilizados no experimento.
 
-![Dados descriptografados](./imagens/04%20-%20dados_descriptografados.png)
+![Dados descriptografados](./imagens/04%20-%20dados_descriptografados.PNG)
 
 ## ⚙️ Execução dos Scripts
 
