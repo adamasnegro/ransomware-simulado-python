@@ -1,11 +1,5 @@
 # 🔐 Ransomware Simulado com Python — Laboratório de Cibersegurança
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Cybersecurity](https://img.shields.io/badge/Área-Cibersegurança-red)
-![DIO](https://img.shields.io/badge/Plataforma-DIO-purple)
-![BootCamp](https://img.shields.io/badge/BootCamp-Santander-orange)
-![Status](https://img.shields.io/badge/Status-Concluído-success)
-
 ## 📌 Sobre o Projeto
 
 Este projeto consiste no desenvolvimento de um laboratório educacional de simulação de Ransomware utilizando a linguagem Python, realizado como parte do **BootCamp Santander — Cibersegurança do Zero à Prática**, oferecido pela plataforma DIO (Digital Innovation One).
@@ -95,18 +89,16 @@ A organização dos arquivos foi realizada da seguinte maneira:
 ransomware-simulado-python/
 │
 ├── README.md
-│
 ├── ransomware.py
-│
 ├── descriptografar.py
-│
+├── chave.key
 ├── LEIA ISSO.txt
 │
 ├── test_file/
 │   ├── dados-confidenciais
 │   └── senhas
 │
-└── imagens/
+└── img/
     ├── 01 - construindo_ambiente.png
     ├── 02 - construindo_ambiente.png
     ├── 03 - arquivos_criptografados.png
@@ -119,11 +111,12 @@ ransomware-simulado-python/
 |---|---|
 | `ransomware.py` | Script Python responsável por criptografar os arquivos de teste. |
 | `descriptografar.py` | Script Python responsável por descriptografar e recuperar os arquivos. |
+| `chave.key` | Arquivo de chave utilizado no laboratório. |
 | `LEIA ISSO.txt` | Arquivo com instruções complementares do laboratório. |
 | `test_file/` | Diretório contendo os arquivos utilizados no experimento. |
 | `dados-confidenciais` | Primeiro arquivo utilizado na simulação. |
 | `senhas` | Segundo arquivo utilizado na simulação. |
-| `imagens/` | Diretório com as evidências visuais do laboratório. |
+| `img/` | Diretório com as evidências visuais do laboratório. |
 
 ## 🖥️ Desenvolvimento do Laboratório
 
@@ -133,15 +126,19 @@ Nesta etapa foi preparado o ambiente de desenvolvimento e organizada a estrutura
 
 Foram criados os arquivos de teste que seriam utilizados durante os procedimentos de criptografia e descriptografia.
 
-![Construindo o ambiente - Etapa 01](./imagens/01%20-%20construindo_ambiente.png)
+**Evidência 01 — Construção do ambiente**
+
+![01 - Construindo o ambiente](img/01%20-%20construindo_ambiente.png)
+
+**Evidência 02 — Preparação do ambiente**
+
+![02 - Construindo o ambiente](img/02%20-%20construindo_ambiente.png)
 
 ### 2. Preparação dos Arquivos de Teste
 
 Nesta etapa foi realizada a preparação dos arquivos que seriam utilizados na simulação.
 
 Os arquivos `dados-confidenciais` e `senhas` foram organizados dentro do diretório `test_file`, servindo como dados de teste para demonstrar o funcionamento dos scripts desenvolvidos em Python.
-
-![Construindo o ambiente - Etapa 02](./imagens/02%20-%20construindo_ambiente.png)
 
 ### 3. Criptografando os Arquivos
 
@@ -151,7 +148,9 @@ O procedimento demonstrou como um Ransomware pode tornar informações indispon�
 
 Também foi apresentada uma mensagem simulada de resgate, representando uma característica comum desse tipo de ameaça.
 
-![Arquivos criptografados](./imagens/03%20-%20arquivos_criptografados.png)
+**Evidência 03 — Arquivos criptografados**
+
+![03 - Arquivos criptografados](img/03%20-%20arquivos_criptografados.png)
 
 ### 4. Descriptografando os Arquivos
 
@@ -159,7 +158,9 @@ Após a execução da simulação de criptografia, foi utilizado o script `descr
 
 Essa etapa demonstrou a importância do processo de descriptografia e permitiu verificar a restauração dos dados utilizados no experimento.
 
-![Dados descriptografados](./imagens/04%20-%20dados_descriptografados.png)
+**Evidência 04 — Dados descriptografados**
+
+![04 - Dados descriptografados](img/04%20-%20dados_descriptografados.png)
 
 ## ⚙️ Execução dos Scripts
 
@@ -263,10 +264,10 @@ A implementação dos scripts `ransomware.py` e `descriptografar.py`, juntamente
 
 Além do desenvolvimento técnico, o projeto reforçou a importância de estratégias preventivas, como backups, controle de acesso, atualização de sistemas e conscientização dos usuários.
 
-Este laboratório representa mais uma etapa da minha jornada de aprendizado em **Cibersegurança, Python e Computação em Nuvem**, fortalecendo meus conhecimentos por meio de atividades práticas e documentação técnica.
+Este laboratório representa mais uma etapa da minha jornada de aprendizado em Cibersegurança, Python e Computação em Nuvem, fortalecendo meus conhecimentos por meio de atividades práticas e documentação técnica.
 
 ---
 
 **Projeto desenvolvido durante o BootCamp Santander — Cibersegurança do Zero à Prática | DIO.**
 
-**Repositório destinado ao registro de estudos, experimentos e evolução profissional na área de Tecnologia da Informação e Cibersegurança.**
+Repositório destinado ao registro de estudos, experimentos e evolução profissional na área de Tecnologia da Informação e Cibersegurança.
